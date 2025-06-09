@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>portafolio</title>
+ <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+ <!--cabecera del body  -->
+  <header>
+    <!-- etiqueta de navegacion esencial en la creacion de menus -->
+          <nav class="menu">
+          <ul>
+          <li><a href="#about"><h3>acerca de mi</h3></a></li>
+          <li><a href="#proyectos"><h3>proyectos</h3></a></li>
+          <li><a href="#contactame"><h3>contactame</h3></a></li>
+          <li><a href="#skills"><h3>habilidades</h3></a></li>
+          </ul>
+      </nav>  
+  </header>
+
+  <main>
+    <section class="about">
+            <div id="about">
+              <img src="image/fundo-mistico-de-pixel-art_52683-87349.avif" alt="">
+              <h2>acerca de mi</h2>
+              <p>soy Cristian Sobrino un coder de 21 años en formacion, actualmente me encuentro estudiando en Riwi, hasta me encuentro en la ruta basica de desarollo de software y dentro de poco me adentrare en temas mas avanzados, espero tengas una agradable experiencia por el portafolio de un developer junior.</p>
+            </div>
+    </section>
+    <!-- seccion de proyectos -->
+    <section class="proyectos">
+          <div>
+              <h3>sistema validacion de datos</h3>
+              <a target="_blank" href="https://github.com/Chris-Liebheart/projects">  <p>proyecto</p></a>
+              <p>este sistema calcula el costo total de compras en una tienda, interactuando con el usuario, mostrando el nombre del producto, el precio a elegir el descuento solicitado y finalmente el costo total de su compra</p>
+              <img src="image/validacion_datos.png" alt="" >
+          </div>
+          <div>
+            <h3>calificaciones</h3>
+            <a target="_blank" href="https://github.com/Chris-Liebheart/projects"><p>proyecto</p></a>
+            <p>este programa cuenta y valida las calificaciones del estudiante, dependiendo de que tan alta es su calificacion sera aprobado o reprobado. las calificaciones van de uno a 100, donde el estudiante que saque mas de 60 sera aprobado.</p>
+            <img src="image/calificaciones.png" alt="">
+          </div>
+          <div>
+          <h3>gestion de inventarios con funciones y coleciones</h3>
+            <a target="_blank" href="https://github.com/Chris-Liebheart/projects"><p>proyecto</p></a>
+            <p>este proyecto es un pequeño inventario de una tienda creado con diccionarios, listas, funciones y diccionarios <br> el cual permite que el usuario pueda agregar productos al inventario, actualizar el precio de estos mismos, eliminarlos y saber el total del inventario.  </p>
+            <img src="image/gestion_inventarios.png" alt="">
+          </div>
+    </section>
+    <section class="skills">
+      <div id="skills">
+        <h2>mis habilidades</h2>
+        <ul>
+          <li>PYTHON</li>
+          <li>CSS</li>
+          <li>HTML5</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contactame">
+      <div id="contactame">
+        <h2>contactame</h2>
+          <table>
+          <tr>
+            <td class="type">numero</td>
+            <td class="value"><a target="_blank" href="https://wa.me/+573161361990"><p>whatsapp</p></a></td>
+          </tr>
+          <tr>
+            <td class="type" >github</td>
+            <td class="value"><a target="_blank" href="https://github.com/Chris-Liebheart/projects"><p>Chris-Liebheart</p></a></td>
+          </tr>
+          <tr>
+            <td class="type">Discord</td>
+            <td class="value">Jason-todd</td>
+          </tr>
+          <tr>
+            <td class="type">correo</td>
+            <td class="value"><a target="_blank" href="https://mail.google.com/mail/u/0/?ogbl#inbox"><p>sobrinocristianalejandro@gmail.com</p></a></td>
+          </tr>
+          </table>
+      </div>
+    </section>
+    <!-- seccion de formulario -->
+    <section class="form-register">
+    <form  action="/submit" method="post">
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
+    <input class="controls"  type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
+    <input class="controls" type="email" name="email" id="email" placeholder="ingrese su correo electronico">
+    <input class="controls" type="number" name="quantity" id="quantity" placeholder="ingresa tu numero de telefono o whatsapp">
+    <input class="botons" type="submit" value="enviar">
+    <input class="botons" type="reset" value="borrar">
+    </form>
+    </section>
+
+
+    <!-- pie de pagina que va al final de cada pagina, este tiene el menu que tambien esta incluido en el header. -->
+    <footer>
+      <nav class="menu">
+        <ul>
+        <li><a href="#about"><h3>acerca de mi</h3></a></li>
+        <li><a href=""><h3>proyectos</h3></a></li>
+        <li><a href="#contactame"><h3>contactame</h3></a></li>
+        <li><a href="#skills"><h3>habilidades</h3></a></li>
+        </ul>
+    </nav>
+  </main>  
+  </footer>
+</body>
+</html>
